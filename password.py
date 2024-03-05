@@ -8,4 +8,4 @@ new_password =""
 for i in range(password):
     new_password += random.choice(string.printable) #all characters on the keyboard
 
-print(new_password)
+print(f"Your password is: {new_password}")
