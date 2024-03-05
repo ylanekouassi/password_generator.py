@@ -1,6 +1,7 @@
 #PASSWORD GENERATOR
 
-import random
-import string
+import random, string
 
 password = int(input("Password's Length: "))
+new_password =""
+
